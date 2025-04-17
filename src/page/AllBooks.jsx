@@ -11,7 +11,7 @@ const AllBooks = () => {
         select: (res) => {
           const sortedBooks = res.data.works
             .sort((a, b) => b.edition_count - a.edition_count)
-            .slice(0, 10); // 상위 10권
+            .slice(0, 10); 
           return sortedBooks;
         },
       });
