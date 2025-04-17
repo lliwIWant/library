@@ -87,3 +87,20 @@
   background-color: #e1b254;
   color: white;
 }
+
+.loginWrap{
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #e1b254;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+.loginBtnArea{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.loginBtn{
+  background-color: #eabd61;
+}
